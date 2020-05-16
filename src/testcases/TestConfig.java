@@ -25,8 +25,8 @@ public class TestConfig{
 	//MYSQL DATABASE DETAILS
 	public static String mysqldriver="com.mysql.cj.jdbc.Driver";
 	public static String mysqluserName = "root";
-	public static String mysqlpassword = "@MySQLJan92";
-	public static String mysqlurl = "jdbc:mysql://localhost:3306/13thmay2020";
+	public static String mysqlpassword = "@MySQLJanPassword";
+	public static String mysqlurl = "jdbc:mysql://localhost:3306/13thmay2020?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
 	
 }
